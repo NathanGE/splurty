@@ -19,7 +19,7 @@
       </div>
     </div>
     <div class="col-xs-4 slogan">
-      Your Daily Scoundrel: for those who know better than taking the advice of "gentlemen and scholars"
+      The Daily Scoundrel: for those who know better than taking the advice of "gentlemen and scholars"
     </div>
     <div class="col-xs-5 links">
       <%= link_to 'Contribute', '#' %>
@@ -28,8 +28,25 @@
   </header>
   <hr />
   <br class="clear" />
+  <div class="container">
+    <%= yield %>
+  </div>
 
-<%= yield %>
-
+  <div class="footer">
+    <div class="container">
+      <div class="col-xs-6">
+        <%= link_to "Gimme' another", "#", :class => 'next-quote' %>
+      </div>
+      <div class="col-xs-6 footer-blurb">
+        Built by <a href="https://github.com/NathanGE">Nathan</a>
+      </div>
+    </div>
+  </div>
 </body>
 </html>
+
+
+
+
+
+
