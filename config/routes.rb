@@ -6,6 +6,8 @@ Splurty::Application.routes.draw do
   # root 'welcome#index'
   root 'quotes#index'
 
+  resources :quotes
+
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
 
