@@ -35,6 +35,8 @@ gem 'simple_form'
 gem 'sprockets', '2.11.0'
 gem 'sass-rails'
 
+gem "factory_girl_rails", "~> 4.0"
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.1.2'
 
